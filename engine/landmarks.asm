@@ -62,7 +62,7 @@ SECTION "engine/landmarks.asm@2", ROMX
 
 WarpMenuOptions::
 
-	db 16 ; Number of options in the menu - 43 total stored in data, but most are unused
+	db 43 ; Number of options in the menu - 43 total stored in data, but most are unused
 
 	db SPAWN_POINT_SILENT
 	db SPAWN_POINT_OLD
@@ -75,7 +75,8 @@ WarpMenuOptions::
 	db SPAWN_POINT_BLUE_FOREST
 	db SPAWN_POINT_STAND
 	db SPAWN_POINT_KANTO
-
+	db SPAWN_POINT_PRINCE
+	db SPAWN_POINT_MT_FUJI
 	; PRINCE and MT_FUJI are skipped in the menu
 
 	db SPAWN_POINT_SOUTH
@@ -83,7 +84,7 @@ WarpMenuOptions::
 	db SPAWN_POINT_ROUTE_15
 	db SPAWN_POINT_ROUTE_18
 	db SPAWN_POINT_SILENT_HILL
-	db $ff
+	;db $ff
 
 	; The demo's options stop here, but the spawn points included actually extend far beyond what is available
 

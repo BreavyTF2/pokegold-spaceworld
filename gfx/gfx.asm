@@ -128,7 +128,7 @@ INCBIN "gfx/tilesets/tileset_00.common.2bpp"
 Tileset_00_Meta:
 INCBIN "data/tilesets/tileset_00_metatiles.bin"
 Tileset_00_Coll:
-INCBIN "data/tilesets/tileset_00_collision.bin"
+INCLUDE "data/tilesets/P2T_CEL1.CAD"
 
 SECTION "gfx.asm@Bank 6 Tilesets 1b", ROMX
 Tileset_1b_Meta:
@@ -142,7 +142,8 @@ INCBIN "gfx/tilesets/tileset_01.common.2bpp"
 Tileset_01_Meta:
 INCBIN "data/tilesets/tileset_01_metatiles.bin"
 Tileset_01_Coll:
-INCBIN "data/tilesets/tileset_01_collision.bin"
+;INCBIN "data/tilesets/tileset_01_collision.bin"
+INCLUDE "data/tilesets/P2T_CEL2.CAD"
 
 SECTION "gfx.asm@Bank 6 Tilesets 02", ROMX
 Tileset_02_GFX:
@@ -150,7 +151,7 @@ INCBIN "gfx/tilesets/tileset_02.common.2bpp"
 Tileset_02_Meta:
 INCBIN "data/tilesets/tileset_02_metatiles.bin"
 Tileset_02_Coll:
-INCBIN "data/tilesets/tileset_02_collision.bin"
+INCLUDE "data/tilesets/P2T_CEL3.CAD"
 
 SECTION "gfx.asm@Bank 6 Tilesets 09", ROMX
 Tileset_09_GFX:
@@ -182,7 +183,7 @@ INCBIN "gfx/tilesets/tileset_06.common.2bpp"
 Tileset_06_Meta:
 INCBIN "data/tilesets/tileset_06_metatiles.bin"
 Tileset_06_Coll:
-INCBIN "data/tilesets/tileset_06_collision.bin"
+INCLUDE "data/tilesets/P2T_CEL4.CAD"
 
 SECTION "gfx.asm@Bank 7 Tilesets 05", ROMX
 Tileset_05_GFX:
@@ -190,7 +191,7 @@ INCBIN "gfx/tilesets/tileset_05.common.2bpp"
 Tileset_05_Meta:
 INCBIN "data/tilesets/tileset_05_metatiles.bin"
 Tileset_05_Coll:
-INCBIN "data/tilesets/tileset_05_collision.bin"
+INCLUDE "data/tilesets/P2T_CEL5.CAD"
 
 SECTION "gfx.asm@Bank 7 Tilesets 03", ROMX
 Tileset_03_GFX:
@@ -198,7 +199,7 @@ INCBIN "gfx/tilesets/tileset_03.common.2bpp"
 Tileset_03_Meta:
 INCBIN "data/tilesets/tileset_03_metatiles.bin"
 Tileset_03_Coll:
-INCBIN "data/tilesets/tileset_03_collision.bin"
+INCLUDE "data/tilesets/P2T_CEL6.CAD"
 
 SECTION "gfx.asm@Bank 8 Tilesets 04", ROMX
 Tileset_04_GFX:
@@ -206,7 +207,7 @@ INCBIN "gfx/tilesets/tileset_04.common.2bpp"
 Tileset_04_Meta:
 INCBIN "data/tilesets/tileset_04_metatiles.bin"
 Tileset_04_Coll:
-INCBIN "data/tilesets/tileset_04_collision.bin"
+INCLUDE "data/tilesets/P2T_CEL7.CAD"
 
 SECTION "gfx.asm@Bank 8 Tilesets 07", ROMX
 Tileset_07_GFX:
@@ -214,7 +215,7 @@ INCBIN "gfx/tilesets/tileset_07.common.2bpp"
 Tileset_07_Meta:
 INCBIN "data/tilesets/tileset_07_metatiles.bin"
 Tileset_07_Coll:
-INCBIN "data/tilesets/tileset_07_collision.bin"
+INCLUDE "data/tilesets/P2T_CEL8.CAD"
 
 SECTION "gfx.asm@Bank 8 Tilesets 08", ROMX
 Tileset_08_GFX:
@@ -222,7 +223,7 @@ INCBIN "gfx/tilesets/tileset_08.common.2bpp"
 Tileset_08_Meta:
 INCBIN "data/tilesets/tileset_08_metatiles.bin"
 Tileset_08_Coll:
-INCBIN "data/tilesets/tileset_08_collision.bin"
+INCLUDE "data/tilesets/P2TCEL14.CAD"
 
 SECTION "gfx.asm@Bank 8 Tilesets 0f", ROMX
 Tileset_0f_GFX:

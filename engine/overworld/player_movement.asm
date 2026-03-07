@@ -193,9 +193,13 @@ _CheckMovementDebug:
 
 CheckMovementSkateboard::
 	call _CheckMovementSkateboard
-	jp SetPlayerMovement
+	;jp SetPlayerMovement
 
 _CheckMovementSkateboard:
+	ld	a, [wPlayerState]
+	cp	PLAYER_SKATE
+	ret	nz
+
 	ld a, [wSkatingDirection]
 	cp STANDING
 	jp z, .not_moving
